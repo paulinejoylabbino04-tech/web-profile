@@ -283,9 +283,9 @@ footer {
     <div>
       <h1>Hello, I’m Pauline Joy</h1>
       <p class="lead">Frontend developer crafting sleek, futuristic, and high-performing web interfaces that glow with life.</p>
-      <button class="btn-primary">View My Work</button>
+      <button class="btn-primary" id="viewWorkBtn">View My Work</button>
     </div>
-    <img src="pau.jpg" alt="Profile">
+    <img src="pau.jpg" alt="Profile of Pauline Joy">
   </div>
 </section>
 
@@ -350,6 +350,11 @@ toggle.onclick=()=>{
   document.documentElement.setAttribute("data-theme",dark?"light":"dark");
   toggle.textContent=dark?"☀️":"🌙";
 };
+
+/* ===== Scroll to Projects ===== */
+document.getElementById("viewWorkBtn").addEventListener("click",()=>{
+  document.querySelector("#projects").scrollIntoView({behavior:"smooth"});
+});
 
 /* ===== Fetch Projects Dynamically ===== */
 const grid=document.getElementById("projectsGrid");
