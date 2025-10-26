@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Pauline Website Profile",
+      "desc": "Responsive portfolio built with HTML, CSS and vanilla JS. Focused on accessibility and performance.",
+      "image": "assets/project1.jpg",
+      "stack": "HTML • CSS • JavaScript",
+      "source": "#",
+      "demo": "#"
+    },
+    {
+      "id": "p2",
+      "title": "Todo App",
+      "desc": "PWA style todo app using localStorage, offline-first approach.",
+      "image": "assets/project2.jpg",
+      "stack": "HTML • CSS • JavaScript",
+      "source": "#",
+      "demo": "#"
+    }
+  ]
+}
